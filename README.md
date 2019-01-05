@@ -3,11 +3,13 @@
 
 # How to Use
 1. init 
- ```MyOptionsPickerView singlePicker```
+ ```java
+ MyOptionsPickerView singlePicker
+ ```
  
 2. setData String 
-```  
-//Single String Picker
+```java
+    //Single String Picker
         singlePicker = new MyOptionsPickerView(MainActivity.this);
         final ArrayList<String> items = new ArrayList<String>();
         items.add("A");
@@ -27,7 +29,14 @@
 //                vMasker.setVisibility(View.GONE);
             }
         });
-        ```
-       
-3. Show 
-```singlePicker.show();```
+```
+3. show 
+```java
+   singleTVOptions.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                singlePicker.show();
+            }
+        });
+```
