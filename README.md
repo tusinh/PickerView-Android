@@ -2,6 +2,7 @@
 <img src="https://raw.githubusercontent.com/tusinh/PickerView-Android/master/img.png" width="300" height="600" />
 
 # How to Use
+* add PickerView like your module lib android.
 1. init global
  ```java
  MyOptionsPickerView singlePicker;
