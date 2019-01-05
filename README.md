@@ -2,9 +2,9 @@
 <img src="https://raw.githubusercontent.com/tusinh/PickerView-Android/master/img.png" width="300" height="600" />
 
 # How to Use
-1. init 
+1. init global
  ```java
- MyOptionsPickerView singlePicker
+ MyOptionsPickerView singlePicker;
  ```
  
 2. setData String 
